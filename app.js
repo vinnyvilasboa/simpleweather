@@ -1,5 +1,6 @@
 //inst classes//
 /*this is the last one and everything will be called here */
+//realistically everything could've been put here but for the sake of keeping things clean it was split up.
 const ft = new Fetch();
 const ui = new UI();
 
