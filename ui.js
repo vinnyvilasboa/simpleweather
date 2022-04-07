@@ -16,7 +16,7 @@ class UI {
           
           <div class="card mx-auto mt-5" style="width: 18rem;"> 
               <div class="card-body justify-content-center">
-                  <h1 class="card-title" >${data.name}</h1>
+                  <h1 class="card-title" >${data.name}, ${data.sys.country}</h1>
                   <h2 class="card-subtitle mb-2 text-muted">› Currently: ${current}</h2>
                   <h2 class="card-subtitle mb-2 text-muted">› Highs of ${high}</h2>
                   <h2 class="card-subtitle mb-2 text-muted">› Lows of ${low}</h2>
